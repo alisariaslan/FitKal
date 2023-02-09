@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.FitKal"
+    >
+    <item
+        android:id="@+id/mi_close_app"
+        android:title="Çıkış" />
+    <item
+        android:id="@+id/mi_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_foods"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_calc"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>
